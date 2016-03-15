@@ -1,0 +1,28 @@
+{
+  "name": "expressjs-startup",
+  "description": "boilerplate code for ExpressJS, AngularJS 1.x",
+  "main": "index.js",
+  "authors": [
+    "jayeshbhalodia"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ExpressJS",
+    "AngularJS"
+  ],
+  "homepage": "https://github.com/jayeshbhalodia/expressjs-startup",
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "bootstrap": "v4.0.0-alpha.2"
+  }
+}
