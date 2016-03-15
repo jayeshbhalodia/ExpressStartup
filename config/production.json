@@ -1,0 +1,3 @@
+{
+    "mongoDBURI" : "mongodb://localhost/app-prod"
+}

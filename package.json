@@ -1,0 +1,32 @@
+{
+  "name": "expressjs-startup",
+  "version": "1.0.0",
+  "description": "boilerplate code for ExpressJS, AngularJS 1.x",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jayeshbhalodia/expressjs-startup"
+  },
+  "keywords": [
+    "ExpressJS",
+    "AngularJS"
+  ],
+  "author": "jayeshbhalodia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jayeshbhalodia/expressjs-startup/issues"
+  },
+  "homepage": "https://github.com/jayeshbhalodia/expressjs-startup",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "config": "^1.19.0",
+    "express": "^4.13.4",
+    "hbs": "^4.0.0",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.4.7",
+    "morgan": "^1.7.0"
+  }
+}
