@@ -15,5 +15,7 @@ Simple Boilerplate to Quick Start simple app
 - add SASS
 - add user wrapper using passportJS
 
+
 ## License
-    [MIT](LICENSE)
+
+  [MIT](LICENSE)
