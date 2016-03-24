@@ -1,18 +1,15 @@
 #Expressjs startup
 Simple Boilerplate to Quick Start simple app
-
 ## How to Install
-- npm Install
-- bower install
-- node index.js or nodemon index.js ( @todo I will add gulp task runner)
+- npm Install (For Server)
+- cd public;npm install; (for Client)
+- cd..;gulp
 
 ## Used Libs
 - ExpressJS 4.x
-- AngularJS 1.5.x
+- AngularJS 2.x
 
 ## Todo
-- add Gulp Tasks runner
-- add SASS
 - add user wrapper using passportJS
 
 

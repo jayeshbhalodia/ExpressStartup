@@ -35,3 +35,11 @@ jspm_packages
 
 # Avoid Bower libs files
 public/libs
+
+
+public/typings/
+public/node_modules/
+public/angular/*.js
+public/angular/*.js.map
+public/angular/*/*.js
+public/angular/*/*.js.map

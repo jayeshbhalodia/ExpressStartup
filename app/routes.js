@@ -8,5 +8,7 @@ var ctrl = {
 // define the home page route
 router.get('/', ctrl.home.index);
 
+router.get('*', ctrl.home.index);
+
 
 module.exports = router;

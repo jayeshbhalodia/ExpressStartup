@@ -24,9 +24,17 @@
     "body-parser": "^1.15.0",
     "config": "^1.19.0",
     "express": "^4.13.4",
+    "gulp": "^3.9.1",
     "hbs": "^4.0.0",
     "method-override": "^2.3.5",
     "mongoose": "^4.4.7",
     "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "gulp-nodemon": "^2.0.6",
+    "gulp-sass": "^2.2.0",
+    "gulp-shell": "^0.5.2",
+    "gulp-tsc": "^1.1.5",
+    "gulp-watch": "^4.3.5"
   }
 }
