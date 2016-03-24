@@ -4558,12 +4558,15 @@ a.bg-danger:focus, a.bg-danger:hover {
   .hidden-print {
     display: none !important; } }
 
-body {
-  padding: 50px;
-  text-aligh: center; }
+.navbar-brand {
+  padding-right: 50px; }
+
+.main-loading-txt {
+  padding: 100px;
+  text-align: center; }
 
 #main-cn {
-  padding-top: 20px; }
-  #main-cn .main-loading-txt {
-    padding: 100px;
-    text-align: center; }
+  margin-top: 54px; }
+
+.custom-wrapper {
+  padding: 50px 0px; }

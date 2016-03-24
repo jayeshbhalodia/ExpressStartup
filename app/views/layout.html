@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+
+        <!-- Set the base href -->
+        <base href="/">
+
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="icon" href="../../favicon.ico">
 
+        <link rel="icon" href="../../favicon.ico">
         <title>Hey man, I'm title!</title>
 
         <!-- Custom styles for this template -->
@@ -22,6 +26,7 @@
         <script src="node_modules/systemjs/dist/system.src.js"></script>
         <script src="node_modules/rxjs/bundles/Rx.js"></script>
         <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
+        <script src="node_modules/angular2/bundles/router.dev.js"></script>
 
         <script type="text/javascript">
             System.config({
@@ -38,29 +43,12 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-fixed-top navbar-light bg-faded">
-            <a class="navbar-brand" href="#">JLO AC</a>
-            <ul class="nav navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                    </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </nav>
 
-        <div class="container" id="main-cn">
-            <div class="starter-template">
-                <start-engine>
-                    <h1 class="main-loading-txt">
-                        <img src="/images/circles.svg" alt="Ah, Its Cool Spinner!"/>
-                    </h1>
-                </start-engine>
-            </div>
-        </div>
+        <start-engine>
+            <h1 class="main-loading-txt">
+                <img src="/images/circles.svg" alt="Ah, Its Cool Spinner!"/>
+            </h1>
+        </start-engine>
+
     </body>
 </html>
