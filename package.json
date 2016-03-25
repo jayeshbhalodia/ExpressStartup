@@ -26,9 +26,13 @@
     "express": "^4.13.4",
     "gulp": "^3.9.1",
     "hbs": "^4.0.0",
+    "lodash": "^4.6.1",
     "method-override": "^2.3.5",
     "mongoose": "^4.4.7",
-    "morgan": "^1.7.0"
+    "morgan": "^1.7.0",
+    "nodemailer": "^2.3.0",
+    "request": "^2.69.0",
+    "uid": "0.0.2"
   },
   "devDependencies": {
     "gulp-nodemon": "^2.0.6",
